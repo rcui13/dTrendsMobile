@@ -1,13 +1,46 @@
-<TabView androidTabsPosition="bottom">
-  <GridLayout *tabItem="{ title: 'Home' }">
+<TabView androidTabsPosition="bottom" tabTextColor="Gray" selectedTabTextColor="Aqua">
+  <StackLayout  *tabItem="{ title: 'Globe', iconSource: '/Users/imacbig08/IdeaProjects/dTrendsMobile/src/app/677811.png ' }">
     <page-router-outlet name="homeTab"></page-router-outlet>
-  </GridLayout>
+  </StackLayout>
 
-  <GridLayout *tabItem="{ title: 'Browse' }">
+  <StackLayout *tabItem="{ title: 'Graphs', iconSource: '/Users/imacbig08/IdeaProjects/dTrendsMobile/src/app/677811.png ' }">
     <page-router-outlet name="browseTab"></page-router-outlet>
-  </GridLayout>
+  </StackLayout>
 
-  <GridLayout *tabItem="{ title: 'Search' }">
+  <StackLayout *tabItem="{ title: 'Timelapse', iconSource: '/Users/imacbig08/IdeaProjects/dTrendsMobile/src/app/677811.png '  }">
     <page-router-outlet name="searchTab"></page-router-outlet>
-  </GridLayout>
+  </StackLayout>
 </TabView>
+
+<!--<TabView androidTabsPosition="bottom" >-->
+<!--  <StackLayout *tabItem="{title: 'Globe', iconSource: '/Users/imacbig08/IdeaProjects/dTrendsMobile/src/app/677811.png '}">-->
+<!--    <StackLayout>-->
+<!--      <label-->
+<!--              text="Globe"-->
+<!--              textWrap="true"-->
+<!--              class="m-15 h2 text-left"-->
+<!--              color="blue"-->
+<!--      ></label>-->
+<!--    </StackLayout>-->
+<!--  </StackLayout>-->
+<!--  <StackLayout *tabItem="{title: 'Graphs', iconSource: '/Users/imacbig08/IdeaProjects/dTrendsMobile/src/app/677811.png '}">-->
+<!--    <StackLayout>-->
+<!--      <label-->
+<!--              text="Graphs"-->
+<!--              textWrap="true"-->
+<!--              class="m-15 h2 text-left"-->
+<!--              color="blue"-->
+<!--      ></label>-->
+<!--    </StackLayout>-->
+<!--  </StackLayout>-->
+<!--  <StackLayout *tabItem="{title: 'Timelapse', iconSource: '/Users/imacbig08/IdeaProjects/dTrendsMobile/src/app/677811.png '}">-->
+<!--    <StackLayout>-->
+<!--      <label-->
+<!--              text="Timelapse"-->
+<!--              textWrap="true"-->
+<!--              class="m-15 h2 text-left"-->
+<!--              color="blue"-->
+<!--      ></label>-->
+<!--    </StackLayout>-->
+<!--  </StackLayout>-->
+<!--</TabView>-->
