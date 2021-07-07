@@ -1,49 +1,53 @@
+<ActivityIndicator busy="true" color="red" width="100" height="100"></ActivityIndicator>
 <TabView androidTabsPosition="bottom" tabTextColor="Gray" selectedTabTextColor="Aqua">
-  <StackLayout  *tabItem="{ title: 'Globe', iconSource: '/Users/imacbig08/IdeaProjects/dTrendsMobile/src/app/output-onlinepngtools.png ' }" >
+  <StackLayout  *tabItem="{ title: 'Globe', iconSource: '/Users/imacbig03/IdeaProjects/dTrendsMobile/src/app/globe-icon.png' }" >
+<!--    <StackLayout  *tabItem="{ title: 'Globe', iconSource: '/Users/imacbig08/IdeaProjects/dTrendsMobile/src/app/globe-icon.png' }" >-->
     <page-router-outlet name="homeTab"></page-router-outlet>
   </StackLayout>
 
-  <StackLayout *tabItem="{ title: 'Graphs' }">
+  <StackLayout *tabItem="{ title: 'Graphs', iconSource: '/Users/imacbig03/IdeaProjects/dTrendsMobile/src/app/charts-icon.png '  }">
+<!--    <StackLayout *tabItem="{ title: 'Graphs', iconSource: '/Users/imacbig08/IdeaProjects/dTrendsMobile/src/app/charts-icon.png '  }">-->
     <page-router-outlet name="browseTab"></page-router-outlet>
   </StackLayout>
 
-  <StackLayout *tabItem="{ title: 'Timelapse'}">
+  <StackLayout *tabItem="{ title: 'Timelapse', iconSource: '/Users/imacbig03/IdeaProjects/dTrendsMobile/src/app/clock-icon.png' }">
+<!--    <StackLayout *tabItem="{ title: 'Timelapse', iconSource: '/Users/imacbig08/IdeaProjects/dTrendsMobile/src/app/clock-icon.png' }">-->
     <page-router-outlet name="searchTab"></page-router-outlet>
   </StackLayout>
 </TabView>
 
-<TabView androidTabsPosition="bottom" >
-  <StackLayout *tabItem="{title: 'Globe', iconSource: '/Users/imacbig08/IdeaProjects/dTrendsMobile/src/app/677811.png '}">
-    <StackLayout>
-      <label
-              text="Globe"
-              textWrap="true"
-              class="m-15 h2 text-left"
-              color="blue"
-      ></label>
-      <page-router-outlet name="homeTab"></page-router-outlet>
-    </StackLayout>
-  </StackLayout>
-  <StackLayout *tabItem="{title: 'Graphs', iconSource: '/Users/imacbig08/IdeaProjects/dTrendsMobile/src/app/677811.png'}">
-    <StackLayout>
-      <label
-              text="Graphs"
-              textWrap="true"
-              class="m-15 h2 text-left"
-              color="blue"
-      ></label>
-    </StackLayout>
-    <page-router-outlet name="browseTab"></page-router-outlet>
-  </StackLayout>
-  <StackLayout *tabItem="{title: 'Timelapse', iconSource: '/Users/imacbig08/IdeaProjects/dTrendsMobile/src/app/677811.png'}">
-    <StackLayout>
-      <label
-              text="Timelapse"
-              textWrap="true"
-              class="m-15 h2 text-left"
-              color="blue"
-      ></label>
-    </StackLayout>
-    <page-router-outlet name="searchTab"></page-router-outlet>
-  </StackLayout>
-</TabView>
+<!--<TabView androidTabsPosition="bottom" >-->
+<!--  <StackLayout *tabItem="{title: 'Globe', iconSource: '/Users/imacbig03/IdeaProjects/dTrendsMobile/src/app/677811.png '}">-->
+<!--    <StackLayout>-->
+<!--      <label-->
+<!--              text="Globe"-->
+<!--              textWrap="true"-->
+<!--              class="m-15 h2 text-left"-->
+<!--              color="blue"-->
+<!--      ></label>-->
+<!--      <page-router-outlet name="homeTab"></page-router-outlet>-->
+<!--    </StackLayout>-->
+<!--  </StackLayout>-->
+<!--  <StackLayout *tabItem="{title: 'Graphs', iconSource: '/Users/imacbig03/IdeaProjects/dTrendsMobile/src/app/677811.png'}">-->
+<!--    <StackLayout>-->
+<!--      <label-->
+<!--              text="Graphs"-->
+<!--              textWrap="true"-->
+<!--              class="m-15 h2 text-left"-->
+<!--              color="blue"-->
+<!--      ></label>-->
+<!--    </StackLayout>-->
+<!--    <page-router-outlet name="browseTab"></page-router-outlet>-->
+<!--  </StackLayout>-->
+<!--  <StackLayout *tabItem="{title: 'Timelapse', iconSource: '/Users/imacbig03/IdeaProjects/dTrendsMobile/src/app/677811.png'}">-->
+<!--    <StackLayout>-->
+<!--      <label-->
+<!--              text="Timelapse"-->
+<!--              textWrap="true"-->
+<!--              class="m-15 h2 text-left"-->
+<!--              color="blue"-->
+<!--      ></label>-->
+<!--    </StackLayout>-->
+<!--    <page-router-outlet name="searchTab"></page-router-outlet>-->
+<!--  </StackLayout>-->
+<!--</TabView>-->
