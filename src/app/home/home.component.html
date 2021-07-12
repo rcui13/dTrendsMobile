@@ -1,5 +1,17 @@
-<ActionBar>
-  <Label text="Home"></Label>
+<ActionBar android.icon="res://icon"
+           android.iconVisibility="always">
+  <StackLayout orientation="horizontal" ios:horizontalAlignment="center" android:horizontalAlignment="center">
+    <Image src="/Users/imacbig03/IdeaProjects/dTrendsMobile/src/app/actionbarhome.png" class="action-image" width="70" height="70"></Image>
+<!--    <Image src="/Users/imacbig08/IdeaProjects/dTrendsMobile/src/app/actionbarhome.png" class="action-image" width="70" height="70"></Image>-->
+  </StackLayout>
+  <NavigationButton android.systemIcon="ic_menu"></NavigationButton>
+  <ActionItem icon="/Users/imacbig03/IdeaProjects/dTrendsMobile/src/app/menu.png" ios.position="left">
+<!--    <ActionItem icon="/Users/imacbig08/IdeaProjects/dTrendsMobile/src/app/menu.png" ios.position="left">-->
+    </ActionItem>
+  <ActionItem ios.position="right" icon="/Users/imacbig03/IdeaProjects/dTrendsMobile/src/app/search.png" android.position="actionBar">
+<!--    <ActionItem ios.position="right" icon="/Users/imacbig08/IdeaProjects/dTrendsMobile/src/app/search.png" android.position="actionBar">-->
+    </ActionItem>
+
 </ActionBar>
 
 <GridLayout>

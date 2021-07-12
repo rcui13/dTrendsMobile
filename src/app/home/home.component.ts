@@ -9,9 +9,14 @@ import { DataService, DataItem } from '../shared/data.service'
 export class HomeComponent implements OnInit {
   items: Array<DataItem>
 
-  constructor(private _itemService: DataService) {}
+  constructor(private _itemService: DataService) {
+    console.log("hellow World")
+  }
 
   ngOnInit(): void {
     this.items = this._itemService.getItems()
+  }
+  onShare(): void{
+    console.log("Whoa")
   }
 }
